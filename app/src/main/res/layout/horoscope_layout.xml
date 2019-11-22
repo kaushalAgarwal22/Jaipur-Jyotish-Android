@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        android:layout_margin="10dp"
+        android:id="@+id/cvHoroscope"
+        app:cardBackgroundColor="#ffffff"
+        app:contentPadding="5dp"
+        android:background="@drawable/cardbg"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:id="@+id/ll_recyclerview"
+        >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivHoroscope"
+        android:scaleType="fitXY"
+        android:src="@drawable/horoscpe"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHoroscope"
+        android:text="Horoscope Making:"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/tvbg"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

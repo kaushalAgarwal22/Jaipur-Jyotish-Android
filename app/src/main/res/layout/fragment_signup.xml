@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SignupFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textColor="#ee639f"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL ADDRESS *"
+            android:textSize="16sp"
+            android:textColor="#868686"
+            android:layout_marginTop="14dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/etEmail"
+            android:background="@drawable/etmailbg"
+            android:textColorHint="#868686"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE PASSWORD * "
+            android:textSize="16sp"
+            android:textColor="#868686"
+            android:layout_marginTop="14dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/etPasswd"
+            android:background="@drawable/etmailbg"
+            android:textColorHint="#868686"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:inputType="numberPassword"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM PASSWORD * "
+            android:textSize="16sp"
+            android:textColor="#868686"
+            android:layout_marginTop="14dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/etPassword"
+            android:background="@drawable/etmailbg"
+            android:textColorHint="#868686"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:inputType="numberPassword"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loginbg"
+            android:id="@+id/btLogin"
+            android:text="Register Now *"
+            android:textColor="#fdeef5"
+            android:textSize="14sp"
+            android:layout_marginTop="14dp"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

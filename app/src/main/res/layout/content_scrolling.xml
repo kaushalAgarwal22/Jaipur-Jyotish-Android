@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="2dp"
+        android:layout_margin="10dp"
+        android:id="@+id/cvHoroscope"
+        app:cardBackgroundColor="#8690c5"
+        app:contentPadding="5dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContent"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Kundli is a term for Horoscope or Birth chart in English. A horoscope/janampatri is abasic tool for making astrological forecasts. Kundli represents position of planet atspecific time as seen from a specific place. In other words, Kundli is pictorialrepresentation of planets in heaven at the time of birth. An astrologer uses Janam Kundli (Horoscope casted for the time of birth) or Prashna Kundli (Horoscope casted for the time of query) as the basic of his/ her prediction.Get detailed JANAM KUNDALI by just giving your birth details With Acharya Ji, you will get your Ascendant, Moon sign and Nakshatra predictions. Get to know all about your Horoscope Be happier, healthier, and stay motivated with your wellness horoscopes. Get a report of what you can expect in your personal health realm, plus advice on how to feel and look your best!IIf you are feeling restricted and suffocated in your career? Or, is your business bringing you plenty of stress? Ask us! Do you dream of ultimate Career Suc"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#ffffff"
+        />
+
+    </android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>

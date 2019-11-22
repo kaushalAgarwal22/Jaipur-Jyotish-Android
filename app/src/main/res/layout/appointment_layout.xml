@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#228acf"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Appointment"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingStart="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book an Appointment With ACHARYA ARUN SHARMA"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="14dp"
+            android:paddingStart="10dp"
+            />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment type:"
+            android:textColor="#777777"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/Spinner_Appt_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment Date:"
+            android:textColor="#777777"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDuration"
+            android:text="9/02/2019"
+            android:background="@drawable/namebg"
+            android:padding="6dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:drawableEnd="@drawable/ic_today_black_24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textColor="#777777"
+            android:background="@null"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/Spinner_Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_booknow"
+            android:id="@+id/btBooknow"
+            android:text="Book Now "
+            android:textColor="#fdeef5"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

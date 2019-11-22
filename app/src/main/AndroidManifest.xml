@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gayatrisoft.jaipurjyotish">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jyotishapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.gayatrisoft.jaipurjyotish.SplashActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gayatrisoft.jaipurjyotish.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar"
+            />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.LoginActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.ServicesActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.Store" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.ArticleActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.SuccessActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.GalleryActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.AboutusActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.ContactusActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.TrackActivity" />
+        <activity android:name="com.gayatrisoft.jaipurjyotish.Horoscope"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.gayatrisoft.jaipurjyotish.ScrollingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.gayatrisoft.jaipurjyotish.BasicActivity"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

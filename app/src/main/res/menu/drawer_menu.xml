@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+
+        android:id="@+id/Category"
+        >
+
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+
+        />
+
+    <item
+        android:id="@+id/Services"
+        android:title="Services"
+        android:icon="@drawable/services"
+        />
+
+        <item
+            android:id="@+id/Store"
+            android:title="Store"
+            android:icon="@drawable/store"
+            />
+
+         <item
+            android:id="@+id/Article"
+            android:title="Article"
+            android:icon="@drawable/articles"
+            />
+
+    <item
+        android:id="@+id/Success"
+        android:title="Success Story"
+        android:icon="@drawable/successarticle"
+        />
+
+    <item
+        android:id="@+id/Gallery"
+        android:title="Gallery"
+        android:icon="@drawable/galleryimage"
+        />
+
+        <item
+            android:id="@+id/Aboutus"
+            android:title="About us"
+            android:icon="@drawable/aboutus"
+            />
+
+        <item
+            android:id="@+id/ContactUs"
+            android:title="Contact Us"
+            android:icon="@drawable/contactus"
+            />
+
+         <item
+            android:id="@+id/Track"
+            android:title="Track Order"
+            android:icon="@drawable/trackingg"
+            />
+
+
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/Share"
+            android:title="Share"
+            >
+
+        </item>
+    </group>
+
+</menu>
+
+
+
+
